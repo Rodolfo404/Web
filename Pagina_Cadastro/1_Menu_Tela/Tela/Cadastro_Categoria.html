@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Page.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Cadastro_Categoria.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="Home.html">  
+                <img src="logo.png" alt="Logo da Havan" title="Logo da Havan">            
+            </a>
+       </div>
+       <nav id="Menu-Principal">
+           <ul>
+               <li>
+                   <a href="Cadastro_Categoria.html">Cadastro de categorias</a>
+               </li>
+           </ul>
+       </nav>
+       <div id="User">
+            <a href="">
+            <img src="User.png" alt="Menu do usuário" title="Menu do usuário">
+        </a>
+        </div>
+   </header>
+   <main>
+       <div class="Cabecalho-Crud">
+           <h1>Cadastro de categoria</h1>
+           <a class="Botao-Principal" href="Lista_Categoria.html">Voltar</a>
+       </div>
+       <hr/>
+       <div>
+           <form action="" method="POST">
+               <div class="form-item">
+                <label for="id">Id:</label>
+                <input type="number" name ="id" id="id"/> 
+               </div>
+               <div class="form-item">
+                <label for="nome">Nome:</label>
+                <input type="text" name ="nome" id ="nome" />
+               </div>
+               <div class="form-item">
+                <label for="descricao">Descrição</label>
+                <input type="text" name="descricao" id="descricao" />
+               </div>
+               <hr/>
+               <input class="Botao-Principal" type="submit" value="Salvar"/>
+           </form>
+        </div>
+   </main>
+
+
+   <footer>
+    <h4>Nenhum direito reservado<br/> &copy; Rod Labs</h4>
+</footer>
+
+    <a href="Home.html" title="Volta ao menu inicial">Voltar</a>
+</body>
+</html>

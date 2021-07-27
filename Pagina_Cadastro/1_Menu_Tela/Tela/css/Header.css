@@ -1,0 +1,78 @@
+header{
+    background: rgba(245, 244, 244, 0.993);
+    height: 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0;
+} 
+
+#logo{
+    height: 80px;
+    width: 10%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    
+}
+#logo img
+{
+    width: 130px;
+    
+}
+
+#Menu-Principal
+{
+    height: 50px;
+    width: 60%;
+    text-align: left;
+    margin-right: 10%;
+}
+
+#Menu-Principal ul
+{
+    margin-top: 10px;
+    list-style: none;
+}
+
+#Menu-Principal ul li
+{
+    background-color: rgb(8, 24, 235);
+    display: inline-block;
+    border: solid 1px rgb(1, 1, 12);
+}
+
+#Menu-Principal ul li:hover
+{
+    background-color: white;
+    border-color: darkblue;    
+}
+
+#Menu-Principal ul li a
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: white;
+}
+
+#Menu-Principal ul li a:hover
+{
+    color: darkblue;
+}
+
+#User
+{
+    height: 75px;
+    width: 20%;
+    margin-right: 5%;
+    text-align: right;
+   
+}
+
+#User img
+{
+    width: 80px;
+    border-radius: 40px;
+    border-color: 50px solid darkblue ;
+}
